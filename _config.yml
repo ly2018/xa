@@ -2,7 +2,7 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'zh-CN'
+language: 'en-us'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /ly2018.github.io/
@@ -22,7 +22,7 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryzhybz.cn # replace by your username
+twitter: try zhybz.cn # replace by your username
 facebook: zhybz.cn # replace by your username
 
 # Disqus
