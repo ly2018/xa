@@ -72,8 +72,8 @@ repo: ly2018.github.io
 branch: master
 relative_source: ../ly2018.github.io/
 destination: ../ly2018.github.io-pages/
-production_url:  http://zhybz.cn/
-source_url:  http://zhybz.cn/
+production_url:  https://ly2018.github.io/
+source_url:  https://github.com/ly2018/ly2018.github.io/
 
 exclude:
   - README.md
