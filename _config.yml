@@ -72,8 +72,8 @@ repo: jasper2
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  http://zhybz.cn
-source_url:  http://zhybz.cn
+production_url:  http://zhybz.cn/
+source_url:  http://zhybz.cn/
 
 exclude:
   - README.md
