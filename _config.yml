@@ -1,0 +1,86 @@
+# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: 'en-us'
+
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: 
+
+# Website info
+title: 曾侯乙编钟-www.zhybz.cn
+description: 曾侯乙编钟-www.zhybz.cn ,曾侯乙编钟，战国早期文物，中国首批禁止出国（境）展览文物。1978年在湖北随县（今随州市）出土。是由六十五件青铜编钟组成的庞大乐器，其音域跨五个半八度，十二个半音齐备。它高超的铸造技术和良好的音乐性能，改写了世界音乐史，被中外专家、学者称之为“稀世珍宝”。
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+production_url: http://zhybz.cn/
+source_url: http://zhybz.cn/
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter: try zhybz.cn # replace by your username
+facebook: zhybz.cn # replace by your username
+
+# Disqus
+disqus: False
+disqus_shortname: myjekyll # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins: [jekyll-paginate, jekyll-feed]
+exclude: [vendor]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.zhybz.cn.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: myJekyll
+repo: ly2018.github.io
+branch: master
+relative_source: ../ly2018.github.io/
+destination: ../ly2018.github.io-pages/
+production_url:  https://ly2018.github.io/
+source_url:  https://github.com/ly2018/ly2018.github.io/
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
