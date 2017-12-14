@@ -2,14 +2,14 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
+language: 'zh-CN'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /ly2018.github.io/
 
 # Website info
-title: ÔøºîÒÒ±àÖÓ-www.zhybz.cn
-description: ÔøºîÒÒ±àÖÓ-www.zhybz.cn ,ÔøºîÒÒ±àÖÓ£¬Õ½¹úÔçÆÚÎÄÎï£¬ÖĞ¹úÊ×Åú½ûÖ¹³ö¹ú£¨¾³£©Õ¹ÀÀÎÄÎï¡£1978ÄêÔÚºş±±ËæÏØ£¨½ñËæÖİÊĞ£©³öÍÁ¡£ÊÇÓÉÁùÊ®Îå¼şÇàÍ­±àÖÓ×é³ÉµÄÅÓ´óÀÖÆ÷£¬ÆäÒôÓò¿çÎå¸ö°ë°Ë¶È£¬Ê®¶ş¸ö°ëÒôÆë±¸¡£Ëü¸ß³¬µÄÖıÔì¼¼ÊõºÍÁ¼ºÃµÄÒôÀÖĞÔÄÜ£¬¸ÄĞ´ÁËÊÀ½çÒôÀÖÊ·£¬±»ÖĞÍâ×¨¼Ò¡¢Ñ§Õß³ÆÖ®Îª¡°Ï¡ÊÀÕä±¦¡±¡£
+title: æ›¾ä¾¯ä¹™ç¼–é’Ÿ-www.zhybz.cn
+description: æ›¾ä¾¯ä¹™ç¼–é’Ÿ-www.zhybz.cn ,æ›¾ä¾¯ä¹™ç¼–é’Ÿï¼Œæˆ˜å›½æ—©æœŸæ–‡ç‰©ï¼Œä¸­å›½é¦–æ‰¹ç¦æ­¢å‡ºå›½ï¼ˆå¢ƒï¼‰å±•è§ˆæ–‡ç‰©ã€‚1978å¹´åœ¨æ¹–åŒ—éšå¿ï¼ˆä»Šéšå·å¸‚ï¼‰å‡ºåœŸã€‚æ˜¯ç”±å…­åäº”ä»¶é’é“œç¼–é’Ÿç»„æˆçš„åºå¤§ä¹å™¨ï¼Œå…¶éŸ³åŸŸè·¨äº”ä¸ªåŠå…«åº¦ï¼ŒåäºŒä¸ªåŠéŸ³é½å¤‡ã€‚å®ƒé«˜è¶…çš„é“¸é€ æŠ€æœ¯å’Œè‰¯å¥½çš„éŸ³ä¹æ€§èƒ½ï¼Œæ”¹å†™äº†ä¸–ç•ŒéŸ³ä¹å²ï¼Œè¢«ä¸­å¤–ä¸“å®¶ã€å­¦è€…ç§°ä¹‹ä¸ºâ€œç¨€ä¸–çå®â€ã€‚
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
