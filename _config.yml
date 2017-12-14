@@ -14,8 +14,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: http://zhybz.cn
-source_url: http://zhybz.cn
+production_url: http://zhybz.cn/
+source_url: http://zhybz.cn/
 
 # Social info
 navigation: True # show the navbar links
@@ -68,10 +68,10 @@ feed:
 safe: False
 lsi: False
 username: myJekyll
-repo: jasper2
+repo: ly2018.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
+relative_source: ../ly2018.github.io/
+destination: ../ly2018.github.io-pages/
 production_url:  http://zhybz.cn/
 source_url:  http://zhybz.cn/
 
